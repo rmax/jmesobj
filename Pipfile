@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+jmesobj = {editable = true,path = "."}
+
+[dev-packages]
+flake8 = "*"
+mypy = "*"
+pytest = "*"
+twine = "*"
+flake8-mypy = "*"
+
+[requires]
+python_version = "3.7"
